@@ -87,9 +87,6 @@ TASKS = {
     }
 }
 
-# Print emails to the terminal instead of sending them.
-EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
-
 
 # Password validation
 # https://docs.djangoproject.com/en/6.1/ref/settings/#auth-password-validators
