@@ -14,3 +14,7 @@ def send_welcome_email(user_id):
         from_email=None,
         recipient_list=[user.email],
     )
+
+@task
+def signup_report():
+    return {"users": User.objects.count()}
